@@ -20,9 +20,9 @@ router.get("/", function (req, res) {
 
 router.post("/api/burgers", function (req, res) {
     burger.insertOne([
-        "burgerName"
+        "burger_name"
     ], [
-            req.body.burgerName
+            req.body.burger_name
         ], function (result) {
             // select all burgers and display
             res.redirect('/');
