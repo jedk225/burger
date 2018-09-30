@@ -53,5 +53,9 @@ The appropriate burgers from the 'Available Burgers' list have been moved to the
 ![Intro Image](public/assets/img/4.png?raw=true)
 ---
 
+# Demo (video link)
+
+https://youtu.be/uFV6xjfBuM4
+
 ## Contributers
 * Jed Kim
