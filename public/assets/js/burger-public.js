@@ -10,7 +10,6 @@ $(function () {
             data: { devoured: devour }
         }).then(
             function () {
-                console.log("changed devoured to", devour);
                 location.reload();
             }
         )
@@ -24,7 +23,6 @@ $(function () {
                 data: { name: addNew }
             }).then(
                 function () {
-                    console.log("added new burger!");
                     location.reload();
                 }
             )

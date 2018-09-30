@@ -1,6 +1,14 @@
 <div class="container">
 	<div class="row">
-		<h1>Eat-Da-Burger</h1>
+		<div class="col-md-12">
+			<h1 id="welcome">Eat-Da-Burger</h1>
+		</div>
+
+	</div>
+	<div class="row">
+
+		<img src="assets/img/DoubleDouble.png" id="burger-pic" alt="burger-image">
+
 	</div>
 	<div class="div"></div>
 	<br>
@@ -30,8 +38,7 @@
 			<ul>
 				{{#each burgers}}
 				<li>
-					{{#if devoured}} {{burger_name}}
-					{{/if}}
+					{{#if devoured}} {{burger_name}} {{/if}}
 				</li>
 				{{/each}}
 			</ul>
