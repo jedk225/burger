@@ -18,7 +18,6 @@ $(function () {
 
     $(".addBurger").on("click", function (event) {
         var addNew = $("#burger").val().trim();
-        alert(addNew)
         if (addNew) {
             $.ajax("/api/burgers/", {
                 type: "POST",
