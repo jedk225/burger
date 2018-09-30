@@ -6,7 +6,7 @@ Friend Finder is a a burger logger web app using MySQL, Node, Express, Handlebar
 The purpose of this project is to gain experience on how to use Node and MySQL to query and route data in an app, and use Handlebars to generate HTML.
 
 # Link to Deployed App
-https://jed-eat-da-burger.herokuapp.com/?
+https://jed-eat-da-burger.herokuapp.com/
 
 # Technologies
 ```
