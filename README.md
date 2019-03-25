@@ -1,5 +1,5 @@
 # burger
-Node Express Handlebars Assignment
+Node Express Handlebars
 
 Friend Finder is a a burger logger web app using MySQL, Node, Express, Handlebars and a homemade ORM. It follows the MVC design pattern. Users can log burgers into an ongoing list, then mark them as "devoured" once they've eaten the respective burger. The application uses a MySQL database for storage and data persistence.
 
